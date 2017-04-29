@@ -1,0 +1,135 @@
+/*Selector global*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Selectores de etiquetas*/
+body{
+    background-color: #bae0ff;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background-color: #2196F3;
+    box-shadow:  0px 5px 10px;
+}
+h1{
+    font-family:monospace;
+    text-align: center;
+}
+main{
+    margin: 50px 50px;
+    margin-left: 310px;
+    padding: 30px;
+    background-color: #64B5F6;
+    width: auto;
+    box-shadow: 5px 5px 10px;
+}
+navbar{
+    width: 250px;
+    height: auto;
+    background-color: #2196F3;
+    margin: 40px 0;
+    padding: auto;
+    box-shadow: 5px 5px 5px;
+    float: left;
+}
+.producto button{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+}
+.producto button:nth-child(even){
+    
+}
+.pro-info p{
+    margin: 20px 0px;
+    font-size: 16px;
+}
+/*Selectores de clase*/
+.prod-row{
+    height: 380px;
+}
+.pro-info{
+    float: right;
+    width: 245px;
+    height: 310px;
+    padding: 10px;
+    margin: 10px 10px 10px 5px;
+    background-color: #bae0ff;
+    text-align: left;
+    border-radius: 0px 15px 15px 0px;
+}
+.producto{
+    width: 480px;
+    height: 350px;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    background-color:azure;
+    border-radius: 15px;
+}
+
+.producto:nth-child(3){
+    margin-right: 0px;
+}
+.producto:nth-child(6){
+    margin-right: 0px;
+}
+.prod-img{
+    height: 330px;
+    width: 195px;
+    margin: 10px 5px;
+    margin-right: 0px;
+    float: left;
+    text-align: center;
+}
+.prod-img > img{
+    width: 190px;
+    height: 190px;
+    float: left;
+}
+.ca-icon img{
+    width: 40px;
+    height: 40px;
+}
+.ca-menu{
+    visibility:visible;
+}
+/*Selectores de id*/
+#banner{
+    height: 220px;
+}
+#logo{
+    width: 60px;
+    height: 50px;
+    background-color:#0eb5b5;
+    box-shadow: 5px;
+    text-align: center;
+    margin-left: 95px;
+    float: left;
+}
+#logo > img{
+    width: 50px;
+    height: 50px;
+}
+#title{
+    text-align: right;
+    height: 50px;
+    width: 78%;
+    display: inline-block;
+    margin-right: 45px;
+    float: right;
+}
+#title h1{
+    text-align: right;
+    margin: auto;
+    color: aliceblue;
+    height: 40px;
+    padding: 5px;
+}
+#separador1{
+    width: 100%x;
+    margin-bottom: 10px;
+}
