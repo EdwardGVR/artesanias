@@ -33,14 +33,22 @@ navbar{
     box-shadow: 5px 5px 5px;
     float: left;
 }
-.producto button{
+.button{
     text-align: center;
     width: 100px;
     height: 30px;
     margin-top: 30px;
+    display: inline-block;
+    background-color: #000000;
+    color: aliceblue;
+    padding-top: 8px;
+    border-radius: 15px;
+    transition: all 0.5s;
 }
-.producto button:nth-child(even){
-    
+.button:hover{
+    background-color: #1b097c;
+    color: aliceblue;
+    font-size: 18px;
 }
 .pro-info p{
     margin: 20px 0px;
@@ -145,6 +153,7 @@ navbar{
     padding-bottom: 7px;
     font-size: 18px;
     border-radius:0px 0px 100px 25px;
+    transition: all 0.5s;
 }
 #cat-options:hover{
     background-color: #529552;
