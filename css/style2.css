@@ -10,11 +10,11 @@
 }
 .ca-menu{
     padding:0;
-    margin:20px auto;
+    margin:20px 0px;
     width: 250px;
 }
 .ca-menu li{
-    margin: 10px auto;
+    margin: 10px 10px;
     width: 210px;
     height: 70px;
     overflow: hidden;
