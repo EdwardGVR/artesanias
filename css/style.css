@@ -5,13 +5,12 @@
 }
 /*Selectores de etiquetas*/
 body{
-    background-color: #bae0ff;
+    background-color: #ffffff;
 }
 header{
-    height: 50px;
-    width: 100%;
-    background-color: #2196F3;
-    box-shadow: 0px 5px 10px;
+    background-color:#115e9b;
+    box-shadow: 0px 5px 15px;
+    border-radius: 0 0 50px 50px;
 }
 h1{
     font-family:monospace;
@@ -19,25 +18,26 @@ h1{
 }
 main{
     margin: 50px 30px;
-    margin-left: 275px;
+    margin-left: 310px;
     background-color: #64B5F6;
-    box-shadow: 5px 5px 10px;
-    display: block;
-    height: 2000px;
+    box-shadow: 5px 5px 15px;
     padding: 0px;
+    overflow: auto;
 }
-navbar{
+nav{
     width: 230px;
     height: auto;
     background-color: #2196F3;
     margin: 40px 0px;
     padding: auto;
-    box-shadow: 5px 5px 5px;
+    box-shadow: 5px 5px 15px;
     float: left;
+    display: inline;
+    border-radius: 0px 25px 25px 0px;
 }
 .pro-info p{
     margin: 15px 0px;
-    font-size: 15px;
+    font-size: 15.5px;
     max-height: 310px;
 }
 /*Selectores de clase*/
@@ -96,8 +96,14 @@ navbar{
     visibility:visible;
 }
 /*Selectores de id*/
+#bar{
+    height: 50px;
+    width: 100%;
+    background-color: #0b1e48;
+    box-shadow: 0px 5px 10px;
+}
 #banner{
-    height: 170px;
+    height: 220px;
 }
 #logo{
     width: 60px;
@@ -129,4 +135,5 @@ navbar{
 #separador1{
     width: 100%x;
     margin-bottom: 10px;
+    box-shadow: 0px 10px 20px;
 }
