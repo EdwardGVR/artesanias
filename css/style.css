@@ -34,6 +34,7 @@ main{
     box-shadow: 5px 5px 15px;
     padding: 0px;
     overflow: auto;
+    border-radius: 25px;
 }
 nav{
     width: 230px;
@@ -99,6 +100,7 @@ footer span{
     margin: 20px;
     background-color:azure;
     border-radius: 15px;
+    box-shadow: 5px 5px 10px;
 }
 .prod-img{
     height: 330px;
@@ -145,6 +147,7 @@ footer span{
     text-align: center;
     margin-left: 95px;
     float: left;
+    border-radius: 10px;
 }
 #logo > img{
     width: 50px;
@@ -187,7 +190,14 @@ footer span{
 *************ESTILOS PARA PRODUCTOS************
 ***********************************************
 ***********************************************/
-
+#header-lamps{
+    background-color:#576686;
+    box-shadow: 0px 5px 15px;
+    /*border-radius: 0 0 50px 50px;*/
+}
+#body-lamps{
+    background-color: #d6dddc;
+}
 #categ{
     height: 150px;
     padding-top: 5px;
@@ -195,6 +205,7 @@ footer span{
     margin: 50px auto;
     width: 100%;
     text-align: center;
+    padding-bottom: 50px;
 }
 #cat-img{
     height: 110px;
@@ -203,20 +214,21 @@ footer span{
     border-color: black;
     border-style: solid;
     background-color: #ffffff;
+    border-radius: 10px 10px 0 0;
 }
 #cat-options{
     height: 25px;
     width: 200px;
-    background-color: #000000;
+    background-color: #8e8e8e;
     padding-top: 7px;
     padding-bottom: 7px;
     font-size: 18px;
-    border-radius:0px 0px 100px 25px;
+    border-radius:0px 0px 10px 10px;
     transition: all 0.5s;
 }
 #cat-options:hover{
     background-color: #529552;
-    width: 150px;
+    border-radius:0px 0px 100px 100px;
 }
 #cat-img img{
     height: inherit;
@@ -225,5 +237,8 @@ footer span{
     text-align: center;
     display: inline-block;
     width: 200px;
-    margin-left: 10px;
+    margin-left: 30px;
+}
+.ca-menu li.nav-lamp:first-child{
+    background-color: #00ffeb;
 }
