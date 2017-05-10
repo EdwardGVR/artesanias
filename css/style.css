@@ -138,7 +138,8 @@ footer span{
     box-shadow: 0px 5px 10px;
 }
 #banner{
-    height: 170px;
+    height: 195px;
+    padding-bottom: 20px;
 }
 #logo{
     width: 60px;
