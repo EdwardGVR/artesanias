@@ -79,15 +79,17 @@ footer span{
     box-shadow: 5px 5px 5px;
 }
 .prod-img{
-    height: auto;
-    width: 52%;
+    max-height: 240px;
+    height: 200px;
+    width: 50%;
     margin: 5px 5px;
     margin-right: 0px;
     float: left;
-    text-align: center;
+    margin-right: 0px;
+    overflow: hidden;
 }
 .prod-img > img{
-    width: 100%;
+    max-width: 75%;
     border-radius: 15px;
     float: left;
     background-color: #bae0ff;
@@ -96,9 +98,8 @@ footer span{
     width: 100%;
     height: 40px;
     display: inline-block;
-    text-align: center;
-    margin-top: 5px;
-    overflow-x: scroll;
+    margin-top: 25px;
+    text-align: left;
 }
 .mini-img img{
     height: inherit;
@@ -341,4 +342,3 @@ footer span{
     width: 200px;
     margin-left: 30px;
 }
-
