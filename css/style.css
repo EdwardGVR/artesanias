@@ -49,6 +49,28 @@ nav{
     display: inline;
     border-radius: 0px 25px 25px 0px;
 }
+#nav-map{
+    width: 80%;
+    height: 25px;
+    float: right;
+    margin-right: 130px;
+    margin-top: 15px;
+    display: inline-block;
+}
+#nav-map li{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #2f4779;
+    color: azure;
+    font-size: 18px;
+    font-family:sans-serif;
+    padding: 0px 10px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
 .pro-info p{
     margin: 15px 0px;
     font-size: 15.5px;
@@ -99,7 +121,7 @@ footer span{
 	-webkit-transition: 1s ease; /* Chrome - Safari */
     -o-transition: 1s ease; /* Opera */
 }
-.main-img > img:hover{
+.main-img > img:active{
     transform : scale(2);
     -moz-transform : scale(2); /* Firefox */
     -webkit-transform : scale(2); /* Chrome - Safari */
@@ -118,17 +140,18 @@ footer span{
     width: 30%;
     border-radius: 5px;
     background-color: aqua;
-    transition: 1s ease;
-    -moz-transition: 1s ease; /* Firefox */
-	-webkit-transition: 1s ease; /* Chrome - Safari */
-    -o-transition: 1s ease; /* Opera */
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease; /* Firefox */
+	-webkit-transition: 0.5s ease; /* Chrome - Safari */
+    -o-transition: 0.5s ease; /* Opera */
 }
-.mini-img > img:hover{
+.mini-img > img:active{
     transform : scale(3);
     -moz-transform : scale(3); /* Firefox */
     -webkit-transform : scale(3); /* Chrome - Safari */
     -o-transform : scale(3); /* Opera */
     -ms-transform : scale(3); /* IE9 */
+    border: 1px solid;
 }
 .pro-info {
     float: right;
@@ -151,7 +174,7 @@ footer span{
     text-align: center;
     width: 30%;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 30px;
     display: inline-block;
     background-color: #000000;
     color: aliceblue;
@@ -248,6 +271,7 @@ footer span{
     background-color: #ffffff;
     text-align: center;
     margin-right: 40px;
+    margin-top: 100px;
 }
 
 .ca-menu li.nav-lamp:first-child{
@@ -257,7 +281,7 @@ footer span{
     display: inline-block;
     width: 60%;
     float: left;
-    height: 500px;
+    height: 1000px;
     background-color: beige;
     border-radius: 25px;
     text-align: center;
