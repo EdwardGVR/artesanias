@@ -429,11 +429,11 @@ footer span{
 }
 #info-items{
     display: inline-block;
-    width: 70%;
+    width: 100%;
     float: left;
     height: 1000px;
     background-color: #cbeeff;
-    border-radius: 25px 0px 0px 25px;
+    border-radius: 25px;
     text-align: left;
 }
 .item-img{
@@ -497,11 +497,12 @@ li img{
          -o-transform: scale( 1, 1 );
             transform: scale( 1, 1 );
   }
-#item-side{
-    display: inline-block;
-    width: 25%;
-    height: 1000px;
-    background-color: #2f4779;
-    border-radius: 0px 25px 25px 0px;
-    margin-left: 5%;
-}
+  
+  .info-side{
+        display:  inline-block;
+        margin:  10px 20px;
+        height: 500px;
+        width: 450px;
+        background: #000;
+        float: right;
+  }
