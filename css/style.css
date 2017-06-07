@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 /*Selectores de etiquetas*/
 html{
@@ -145,7 +146,6 @@ footer span{
     -o-transition: 0.5s ease; /* Opera */
 }
 .main-img > img:active{
-    z-index: 10;
     transform : scale(2);
     -moz-transform : scale(2); /* Firefox */
     -webkit-transform : scale(2); /* Chrome - Safari */
@@ -414,7 +414,8 @@ footer span{
     height: 150px;
     width: 80%;
     margin: 20px;
-    background-color: aqua;
+    background-color: #ccc;
+    box-shadow: 5px 5px 10px;
 }
 .prod-row .producto{
     background-color: #d6f7f7;
@@ -432,10 +433,10 @@ footer span{
 }
 #info-items{
     width: 100%;
-    height: 1000px;
     background-color: #cbeeff;
     border-radius: 25px;
     text-align: center;
+    overflow: auto;
 }
 .item-img{
     display: inline-block;
@@ -462,11 +463,6 @@ footer span{
 nav li:nth-child(1) {
   margin-top: 10px;
 }
-.nav-gallery img{
-    width: 50px;
-    border: 1px solid #000;
-    box-sizing: border-box;
-}
   .gallery {
     height: 550px;
     width: 550px;
@@ -474,11 +470,19 @@ nav li:nth-child(1) {
     text-align: center;
     float: left;
     display: inline;
-  }
+    position: relative;
+}
+.nav-gallery img{
+    width: 50px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 5;
+}
   .target figure img{
-    position: absolute;
+    position: relative;
     border-radius: 0px 20px 20px 0px;
-    padding-top: 170px;
+    padding-top: 50px;
     height: 450px;
     width: 450px;
     /*background: #ccc;*/
@@ -592,10 +596,55 @@ hr{
     display: inline-block;
     width: 100%;
     margin-top: 50px;
-    text-align: center;
+    text-align: left;
+    padding: 50px;
+    box-sizing: border-box;
 }
 .info-detalle hr{
     width: 90%;
     margin: auto;
     margin-bottom: 50px;
+}
+.info-detalle h3{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.info-detalle p{
+    font-size: 1.3em;
+    margin-bottom: 100px;
+}
+.img-content{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 100px;
+    background-color: azure;
+    box-shadow: 5px 5px 20px;
+}
+.big-img img{
+    height: 700px;
+    display: block;
+    border: 5px solid black;
+    box-sizing: border-box;
+    float: left;
+}
+.img-content h3{
+    text-align: center;
+    margin-top: 170px;
+}
+.img-content table, .img-content td{
+    border-bottom: 3px solid #ccc;
+    border-collapse: collapse;
+    margin: auto;
+    cursor: default;
+}
+.img-content td{
+    padding: 10px;
+    background-color: #bdeaf0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 1.5em;
+}
+.img-content td:hover{
+    background-color: aquamarine;
+    border-bottom: 5px solid #000;
 }
